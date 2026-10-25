@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MyFNCbot — учёт личных финансов в Telegram</title>
+<meta name="description" content="Telegram-бот для учёта доходов и расходов. Пишите или говорите «шаурма 48» — бот запишет операцию в вашу Google Таблицу.">
+<link rel="icon" href="logo.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hero">
+  <div class="wrap">
+    <img src="logo.jpg" alt="Логотип MyFNCbot" width="128" height="128">
+    <h1>MyFNCbot — ваши финансы в&nbsp;Telegram</h1>
+    <p>Записывайте доходы и расходы одним сообщением — текстом или голосом. Бот сам ведёт для вас Google Таблицу с отчётами и диаграммами.</p>
+    <a class="btn" href="https://t.me/MyFNCbot">Открыть бота в Telegram</a>
+  </div>
+</div>
+<main class="wrap">
+  <section>
+    <h2>Что умеет бот</h2>
+    <div class="features">
+      <div class="card"><h3>✍️ Записи одним сообщением</h3><p>Расход: <code>шаурма 48</code>. Доход: <code>+8500 зарплата</code>. Категорию бот определит сам.</p></div>
+      <div class="card"><h3>🎤 Голосовые сообщения</h3><p>Скажите «шаурма сорок восемь» — бот распознает речь и запишет операцию.</p></div>
+      <div class="card"><h3>📊 Отчёты и диаграммы</h3><p>Итоги месяца, расходы по категориям, диаграммы доходов и расходов в таблице.</p></div>
+      <div class="card"><h3>🎯 Бюджеты</h3><p>Поставьте лимит на категорию и следите, сколько потрачено и сколько осталось.</p></div>
+      <div class="card"><h3>↩️ Отмена</h3><p>Ошиблись? Команда <code>/undo</code> удалит последнюю запись.</p></div>
+      <div class="card"><h3>💱 Ваша валюта</h3><p>По умолчанию шекели (ILS), валюту можно сменить командой <code>/currency</code>.</p></div>
+    </div>
+  </section>
+  <section>
+    <h2>Как это работает</h2>
+    <ol class="steps">
+      <li><span class="num">1</span><div><b>Откройте бота</b>Найдите <a href="https://t.me/MyFNCbot">@MyFNCbot</a> в Telegram и нажмите «Старт».</div></li>
+      <li><span class="num">2</span><div><b>Войдите через Google</b>Бот пришлёт код для входа. После входа он создаст таблицу «Финансы — Ваше имя» на <em>вашем</em> Google Диске. Доступ — только к этой таблице, остальные файлы Диска бот не видит.</div></li>
+      <li><span class="num">3</span><div><b>Пишите траты и доходы</b>Отправляйте сообщения вроде <code>кофе 12</code> — бот запишет их, а таблица обновится автоматически.</div></li>
+    </ol>
+  </section>
+  <section class="cta">
+    <a class="btn solid" href="https://t.me/MyFNCbot">Начать в Telegram</a>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <a href="privacy.html">Политика конфиденциальности</a>
+    <a href="terms.html">Условия использования</a>
+    <p>© 2026 MyFNCbot</p>
+  </div>
+</footer>
+</body>
+</html>
